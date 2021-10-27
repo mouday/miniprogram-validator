@@ -1,0 +1,20 @@
+{
+  "name": "miniprogram-validator",
+  "version": "1.0.0",
+  "description": "基于 WxValidate - 表单验证 的微信小程序表单校验工具",
+  "main": "libs/validator.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouday/miniprogram-validator.git"
+  },
+  "keywords": [
+    "miniprogram,validator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouday/miniprogram-validator/issues"
+  },
+  "homepage": "https://github.com/mouday/miniprogram-validator#readme"
+}

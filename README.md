@@ -58,4 +58,4 @@ if (error) {
 ```
 
 完整代码：
-[]()
+[https://github.com/mouday/miniprogram-validator](https://github.com/mouday/miniprogram-validator)
