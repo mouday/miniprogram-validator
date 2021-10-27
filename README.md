@@ -14,7 +14,7 @@
 将两个文件拷贝到文件夹下
 
 ```
-utils/
+libs/
     validator.js
     WxValidate.js
 ```
