@@ -9,7 +9,17 @@
 - 后端校验：无论前端是否校验，数据入库前都需要进行校验
 - 前端校验：如果需要提升用户体验或者减少请求次数的情况下，前端需要数据校验。如果应用的要求不高，可以免去前端校验
 
-## 使用示例
+## 下载安装
+
+1、方式一：
+
+```js
+npm i miniprogram-validator
+```
+
+tips: 小程序中需要执行 npm 构建
+
+2、方式二:
 
 将两个文件拷贝到文件夹下
 
@@ -19,8 +29,14 @@ libs/
     WxValidate.js
 ```
 
+## 使用示例
+
 ```js
-const Validator = require('./validator.js');
+// npm 安装引入方式
+const Validator = require('miniprogram-validator');
+
+// 拷贝文件引入方式
+// const Validator = require('./validator.js');
 
 // 需要校验的数据
 let data = {
